@@ -9,4 +9,16 @@ instead , 1 rem=1em=16px */
   .hero {
     max-width: 120rem;
   }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
+
+/* ********************************** */
+/* BLEW 1344px (smaller desktops) */
+/* ************************************* */

@@ -1,0 +1,12 @@
+/* rem or em do Not depend on html font-sizze in media quiries!
+instead , 1 rem=1em=16px */
+
+/* ********************************** */
+/* BLEW 1344px (smaller desktops) */
+/* ************************************* */
+
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+}

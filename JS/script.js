@@ -44,11 +44,17 @@ allLinks.forEach(function (link) {
         top: 0,
         behavior: "smooth",
       });
+
+    //scroll to other links
     if (href !== "#" && href.startsWith("#")) {
       const sectionEl = document.querySelector(href);
       console.log(sectionEl);
       sectionEl.scrollIntoView({ behavior: "smooth" });
     }
+
+    //Close mobile navigation
+    if (link.classList.contains("main-nav-link"))
+      headerEl.classList.toggle("nav-open");
   });
 });
 

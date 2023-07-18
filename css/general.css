@@ -59,11 +59,14 @@ Default: 9px
 }
 
 html {
-  /* font-size: 10px; */
+  font-size: 10px;
   /* 10px / 16px=0,625=62.5% */
   /* percentage of user s browser font-size setting */
   font-size: 62.5%;
   overflow-x: hidden;
+
+  /* Does not work on safari   */
+  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -267,6 +270,7 @@ body {
 .center-text {
   text-align: center;
 }
+
 strong {
   font-weight: 500;
 }
